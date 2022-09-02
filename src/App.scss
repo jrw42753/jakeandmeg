@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+.header-text {
+  font-family: 'Tangerine', cursive;
+  font-size: 48px;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+.wedding-date {
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.title-container {
+  display: flex;
+}
+
+.title-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+}
+
+.title-image {
+  width: 30%;
+  padding: 20px;
+}
+
+.center-cropped {
+  max-width: 100%;
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.carousel-container {
+  margin-top: 40px;
+}
+
+.nav-link {
+  color: #7f58a7 !important;
+}
+
+.nav-item > .active {
+  color: #704270 !important;
+  font-weight: bold;
+}
