@@ -76,7 +76,9 @@
 }
 
 .carousel-container {
-  margin-top: 40px;
+  margin: 40px auto 0px auto;
+  width: 100%;
+  max-width: 825px;
 }
 
 .nav-link {
