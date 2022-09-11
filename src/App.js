@@ -2,17 +2,22 @@ import logo from './logo.svg';
 import './App.scss';
 import Navigation from './components/layout/Navigation'
 import Title from './components/title/Title';
-import HeaderImage from './components/header-image/HeaderImage';
-import OurStory from './components/pages/our-story/OurStory';
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import WeddingParty from './components/pages/wedding-party/WeddingParty';
+import Home from './components/pages/Home';
 
 function App() {
   return (
-    <div className="App">
-      <Title />
-      <Navigation />
-      <HeaderImage />
-      <OurStory />
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <Title />
+        <Navigation />
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/wedding-party' element={<WeddingParty/>}/>
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 

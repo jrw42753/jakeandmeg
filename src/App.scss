@@ -101,3 +101,67 @@
 .our-story-h2 {
   margin-bottom: 20px;
 }
+
+.our-story-img {
+  width: 300px;
+  margin-top: 20px;
+}
+
+.wedding-party-card {
+  display: flex;
+  flex-direction: row;
+}
+
+.wedding-party-img-container {
+  margin: auto 30px auto 0px;
+  padding: 15px;
+}
+
+.wedding-party-img {
+  margin: auto;
+  border-radius: 50%;
+  width: 200px;
+}
+
+.wedding-party-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.wedding-party-container {
+  margin: 50px auto;
+}
+
+.wedding-party-role {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  align-items: center;
+}
+
+@media only screen and (max-width: 575px) {
+  .navigation-container {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding: 15px;
+  }
+  .nav-item {
+    background-color: #fff;
+  }
+  .nav-tabs {
+    border: none !important;
+    --bs-nav-tabs-border-color: #fff;
+  }
+  .nav-link {
+    border: none !important;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border: none !important;
+  }
+  a {
+    border: none !important;
+    border-color: #fff !important;
+  }
+}
