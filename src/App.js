@@ -9,14 +9,18 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <BrowserRouter>
-      <div className="App">
+      {/* <div className="App"> */}
+      <div className="main-header">
         <Title />
         <Navigation />
+      </div>
+      <div className="main-body">
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/wedding-party' element={<WeddingParty/>}/>
         </Routes>
       </div>
+      {/* </div> */}
     </BrowserRouter>
   );
 }

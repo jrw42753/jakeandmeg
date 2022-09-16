@@ -40,12 +40,37 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+.main-header {
+  text-align: center;
+}
+
+.main-body {
+  width: 88%;
+  margin: auto; 
+  max-width: 975px;
+}
 
 .header-text {
-  font-family: 'Tangerine', cursive;
+  font-family: 'Great Vibes', cursive;
   font-size: 48px;
-  text-shadow: 4px 4px 4px #aaa;
+  text-shadow: 2px 2px 2px #aaa;
+}
+
+.header-text-mobile {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  font-size: 40px;
+}
+
+.header-text-span {
+  line-height: 44px;
+}
+
+.title-image > img {
+  width: 100%;
 }
 
 .wedding-date {
@@ -54,19 +79,23 @@
 
 .title-container {
   display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 
 .title-text-container {
   display: flex;
   flex-direction: column;
-  width: 40%;
   justify-content: center;
 }
 
 .title-image {
+  max-width: 250px;
   width: 30%;
-  padding: 20px;
+  padding: 0px 20px;
 }
+
+
 
 .center-cropped {
   max-width: 100%;
@@ -140,12 +169,30 @@
   align-items: center;
 }
 
+.nav-tabs {
+  border-bottom: var(--bs-nav-tabs-border-width) solid var(--bs-nav-tabs-border-color) !important;
+}
+
+#offcanvasNavbar-expand-sm > div.offcanvas-body {
+  display: block !important;
+}
+
+.nav-link {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
+#offcanvasNavbar-expand-sm > div.offcanvas-body > div {
+  flex-wrap: wrap;
+}
+
 @media only screen and (max-width: 575px) {
   .navigation-container {
     position: fixed;
     top: 0px;
     right: 0px;
     padding: 15px;
+    z-index: 100;
   }
   .nav-item {
     background-color: #fff;
@@ -163,5 +210,61 @@
   a {
     border: none !important;
     border-color: #fff !important;
+  }
+}
+
+@media only screen and (max-width: 607px) and (min-width: 545px)  {
+  .header-text {
+    font-size: 42px;
+  }
+  .title-container {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (min-width: 545px) {
+  .header-text-desktop {
+    display: block;
+  }
+  .header-text-date {
+    margin-bottom: 25px;
+  }
+  .mobile-title-container {
+    display: none;
+  }
+  .title-image {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .header-text-desktop {
+    display: none;
+  }
+  .title-image {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+  }
+  .title-image > img {
+    align-self: center;
+  }
+  .header-text-date {
+    margin-top: 20px;
+  }
+  .title-container {
+    margin-top: 65px;
+  }
+  .our-story-container {
+    padding: 30px 0px;
+  }
+  .mobile-title-container {
+    display: block;
+  }
+  .title-image-mobile > img {
+    width: 280px;
+  }
+  .title-image {
+    display: none;
   }
 }

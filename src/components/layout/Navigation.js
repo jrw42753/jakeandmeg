@@ -40,7 +40,7 @@ const Navigation = () => {
         <>
         {/* {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => ( */}
           <div className="navigation-container">
-          <Navbar expanded={expanded} expand="sm" className="mb-3" >
+          <Navbar expanded={expanded} expand="sm" className="mb-3 navbar-custom" >
             <Container fluid>
               {/* <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand> */}
               <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls={`offcanvasNavbar-expand-md`} />
@@ -72,7 +72,32 @@ const Navigation = () => {
                     </Nav.Item>
                     <Nav.Item>
                       <Nav.Link eventKey="link-3" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Link
+                      Transportation
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-4" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      Things to Do
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-5" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      Our Story
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-6" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      Photos
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-7" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      Registry
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-8" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      RSVP
                       </Nav.Link>
                     </Nav.Item>
                   </Nav>
