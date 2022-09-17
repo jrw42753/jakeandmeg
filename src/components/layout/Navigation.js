@@ -75,7 +75,7 @@ const Navigation = () => {
                       Transportation
                       </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="link-4" as={Link} to="/" onClick={() => setExpanded(false)}>
                       Things to Do
                       </Nav.Link>
@@ -99,7 +99,7 @@ const Navigation = () => {
                       <Nav.Link eventKey="link-8" as={Link} to="/" onClick={() => setExpanded(false)}>
                       RSVP
                       </Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

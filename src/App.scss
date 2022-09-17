@@ -95,13 +95,18 @@
   padding: 0px 20px;
 }
 
-
+.page-title {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
 
 .center-cropped {
   max-width: 100%;
   height: 500px;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .carousel-container {
@@ -109,6 +114,16 @@
   width: 100%;
   max-width: 825px;
 }
+
+/* START Trying to fix weird Carousel glitch */
+.carousel { overflow: hidden; }
+.carousel-item { overflow: hidden; }
+
+.carousel-inner{
+  /*just incase the flash (style above) comes back*/
+     background: #000;
+}
+/* --- END Trying to fix weird Carousel glitch */
 
 .nav-link {
   color: #7f58a7 !important;
@@ -139,6 +154,8 @@
 .wedding-party-card {
   display: flex;
   flex-direction: row;
+  margin-bottom: 45px;
+  align-items: center;
 }
 
 .wedding-party-img-container {
@@ -266,5 +283,17 @@
   }
   .title-image {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .wedding-party-card {
+    flex-direction: column;
+  }
+  .wedding-party-img {
+    width: 120px;
+  }
+  .wedding-party-text-container {
+    width: 100%;
   }
 }
