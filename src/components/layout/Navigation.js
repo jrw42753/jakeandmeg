@@ -52,7 +52,6 @@ const Navigation = () => {
               >
                 <Offcanvas.Header closeButton onClick={() => setExpanded(false)}>
                   <Offcanvas.Title id={`offcanvasNavbarLabel-expand-sm`}>
-                    Offcanvas
                   </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
