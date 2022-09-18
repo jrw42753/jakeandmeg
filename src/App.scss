@@ -203,6 +203,53 @@
   flex-wrap: wrap;
 }
 
+.accommodations-container {
+  width: 100%;
+  max-width: 825px;
+  text-align: center;
+  padding: 0px 30px;
+  margin: 20px auto;
+}
+
+.hotel-name {
+  margin-top: 30px;
+}
+
+.hotel-title {
+  margin-top: 40px;
+}
+
+.megjake-button {
+  background-color: #9b81b9;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.megjake-button:hover {
+  color: #fff;
+  background-color: #7e62a6;
+  cursor: pointer;
+}
+
+.hotel-address {
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.hotel-phone {
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+
+.accommodations-blurb {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 575px) {
   .navigation-container {
     position: fixed;
@@ -297,3 +344,4 @@
     width: 100%;
   }
 }
+

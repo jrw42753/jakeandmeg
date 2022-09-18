@@ -71,8 +71,8 @@ const Navigation = () => {
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-3" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Transportation
+                      <Nav.Link eventKey="link-3" as={Link} to="/accommodations" onClick={() => setExpanded(false)}>
+                      Accommodations
                       </Nav.Link>
                     </Nav.Item>
                     {/* <Nav.Item>

@@ -5,6 +5,7 @@ import Title from './components/title/Title';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import WeddingParty from './components/pages/wedding-party/WeddingParty';
 import Home from './components/pages/Home';
+import Accommodations from './components/pages/accommodations/Accommodations';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/>
           <Route path='/wedding-party' element={<WeddingParty/>}/>
+          <Route path='/accommodations' element={<Accommodations/>}/>
         </Routes>
       </div>
       {/* </div> */}

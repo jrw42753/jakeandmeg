@@ -68,7 +68,7 @@ const WeddingParty = () => {
              </div>
              <div className="wedding-party-card">
                  <div className="wedding-party-img-container">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2F274164564_10227922152658373_8620261901847446785_n.jpg?alt=media&token=db1d1806-8d9c-427f-ace8-243004ea5fa7" className="wedding-party-img" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2Fbecker.jpeg?alt=media&token=60dac96c-a4d6-431a-90e6-b9a834d8c8b3" className="wedding-party-img" />
                  </div>
                  <div className="wedding-party-text-container">
                     <div className="wedding-party-role">
