@@ -25,6 +25,7 @@ function Photos() {
     // const photoQuery = photosRef.orderBy('src');
     // const [photos] = useCollectionData(photoQuery, { idField: 'id'});
         const [photos] = useState([]);
+        const photosIdTracking = [];
       
         useEffect(() => {
             const getPhotos = async () => {
@@ -32,7 +33,13 @@ function Photos() {
                 querySnapshot.forEach((doc) => {
                     // doc.data() is never undefined for query doc snapshots
                     // console.log(doc.id, " => ", doc.data());
-                    photos.push(doc.data());
+                    
+                    // photosIdTracking.push(doc.data().id);
+                    // console.log("photosIdTracking", photosIdTracking);
+                    let index = photos.findIndex(object => object.id === doc.data().id);
+                    if (index === -1) {
+                        photos.push(doc.data());
+                    }
                 });
             };
           
@@ -40,18 +47,20 @@ function Photos() {
             console.log(photos);
 
             return () => {
-              // this now gets called when the component unmounts
+                {photos && photos.map(photo => <div key={photo.id} className={photo.size}><img className={photo.size} src={photo.src} /></div>)}
             };
         }, []);
       
-        // if (!photos) return <div>Loading...</div>;
+        if (!photos) {
+            return <div>Loading...</div>;
+        } else {
       
-        return (
-            <div className="photos-container">
-                {photos && photos.map(photo => <div key={photo.id} className={photo.size}><img className={photo.size} src={photo.src} /></div>)}
-            </div>
-        );
- 
+            return (
+                <div className="photos-container">
+                    {photos && photos.map(photo => <div key={photo.id} className={photo.size}><img className={photo.size} src={photo.src} /></div>)}
+                </div>
+            );
+        }
 
     // console.log(docRef);
 
