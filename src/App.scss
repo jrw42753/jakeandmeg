@@ -250,6 +250,48 @@
   margin-top: 50px;
 }
 
+/* Photobook page */
+
+.photos-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 250px);
+  grid-auto-rows: 10px;
+  justify-content: center;
+}
+
+.tall {
+  margin: 10px;
+  grid-row-end: span 30;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: -0px 5px 10px 0px grey;
+  display: flex;
+  align-items: center;
+}
+
+.wide {
+  margin: 10px;
+  grid-row-end: span 20;
+  overflow: hidden;
+  text-align: center;
+  box-shadow: -0px 5px 10px 0px grey;
+  display: flex;
+  align-items: center;
+}
+img.wide {
+  max-width: 250px;
+  margin: -10px;
+}
+
+img.tall {
+  max-width: 250px;
+  margin: -10px;
+}
+
+
+/* END Photobook page */
+
 @media only screen and (max-width: 575px) {
   .navigation-container {
     position: fixed;
