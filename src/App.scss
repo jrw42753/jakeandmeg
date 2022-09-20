@@ -341,6 +341,7 @@ img.tall {
   .title-image {
     display: block;
   }
+  
 }
 
 @media only screen and (max-width: 545px) {
@@ -372,6 +373,16 @@ img.tall {
   }
   .title-image {
     display: none;
+  }
+  .tall {
+    grid-row-end: span 24;
+  }
+  .wide {
+    grid-row-end: span 12;
+  }
+  .photos-container {
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-auto-rows: 10px;
   }
 }
 

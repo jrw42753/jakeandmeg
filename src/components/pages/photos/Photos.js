@@ -1,5 +1,5 @@
 // v9 compat packages are API compatible with v8 code
-import React, { useEffect, useState, } from "react";
+import React, { useEffect, useState } from "react";
 import ReactDOM from "react-dom";
 import fbConfig from '../../../firebase/fbConfig'
 // v9 compat packages are API compatible with v8 code
@@ -24,31 +24,35 @@ function Photos() {
     // const photosRef = firestore.collection('photos')
     // const photoQuery = photosRef.orderBy('src');
     // const [photos] = useCollectionData(photoQuery, { idField: 'id'});
-        const [photos] = useState([]);
+        const [photos, setPhotos] = useState([]);
         const photosIdTracking = [];
       
         useEffect(() => {
-            const getPhotos = async () => {
-                const querySnapshot = await getDocs(collection(firebase.firestore(), "photos"));
-                querySnapshot.forEach((doc) => {
-                    // doc.data() is never undefined for query doc snapshots
-                    // console.log(doc.id, " => ", doc.data());
-                    
-                    // photosIdTracking.push(doc.data().id);
-                    // console.log("photosIdTracking", photosIdTracking);
-                    let index = photos.findIndex(object => object.id === doc.data().id);
-                    if (index === -1) {
-                        photos.push(doc.data());
-                    }
-                });
-            };
-          
-            getPhotos(); // run it, run it
-            console.log(photos);
+            getDocs(collection(firebase.firestore(), "photos")).then((x) => {
+                // x.docs.forEach(y => console.log(y.data()));
+                // console.log(x.docs);
+                setPhotos(x.docs.map(doc => doc.data()))
+            });
 
-            return () => {
-                {photos && photos.map(photo => <div key={photo.id} className={photo.size}><img className={photo.size} src={photo.src} /></div>)}
-            };
+
+            // const getPhotos = async () => {
+            //     const querySnapshot = await getDocs(collection(firebase.firestore(), "photos"));
+            //     querySnapshot.forEach((doc) => {
+            //         // doc.data() is never undefined for query doc snapshots
+            //         // console.log(doc.id, " => ", doc.data());
+                    
+            //         // photosIdTracking.push(doc.data().id);
+            //         // console.log("photosIdTracking", photosIdTracking);
+            //         let index = photos.findIndex(object => object.id === doc.data().id);
+            //         if (index === -1) {
+            //             photos.push(doc.data());
+            //         }
+            //     });
+            // };
+          
+            // getPhotos(); // run it, run it
+            // console.log(photos);
+
         }, []);
       
         if (!photos) {
