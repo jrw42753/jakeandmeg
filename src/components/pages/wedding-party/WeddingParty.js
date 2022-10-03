@@ -27,7 +27,7 @@ const WeddingParty = () => {
                         <h2>Brad Meyer</h2>
                         <span>&nbsp;| Best Man</span>
                     </div>
-                    <p>Brad and Jake met at the beginning of their Freshman year at Creighton University. After many nights of playing board games and spades they became great friends and now spend time together golf, hiking, and going to breweries in Denver where they both live. Brad is a financial advisor and enjoys physical challenges. He recently finished the Tough Mudder and is more than halfway through climbing all 58 14k ft mountains in Colorado.</p>
+                    <p>Brad and Jake met at the beginning of their Freshman year at Creighton University. After many nights of playing board games and spades, they became great friends and now spend time together golfing, hiking, and going to breweries in Denver where they both live. Brad is a financial advisor and enjoys physical challenges. He recently finished the Tough Mudder and is more than halfway through climbing all 58 14k ft mountains in Colorado.</p>
                  </div>
              </div>  
              <div className="wedding-party-card">
@@ -39,7 +39,7 @@ const WeddingParty = () => {
                         <h2>Bri Rollerson</h2>
                         <span></span>
                     </div>
-                    <p>Bri and Meg were in the Social Work Program at Creighton together. While Bri found herself busy with playing on the women’s basketball team, she found time to have fun. Now, playing basketball overseas, Meg and Bri’s friendship is worldwide and supersedes time differences.</p>
+                    <p>Bri and Meg were in the Social Work Program at Creighton together. While Bri found herself busy playing on the women’s basketball team, she found time to have fun. Now, playing basketball overseas, Meg and Bri’s friendship is worldwide and supersedes time differences.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -75,7 +75,7 @@ const WeddingParty = () => {
                         <h2>Jake Becker</h2>
                         <span></span>
                     </div>
-                    <p>We'll call him "Becker" to avoid the "Jake" confusion. Becker and Jake spent days growing up in Wisconsin playing Pokemon and NFL Street. Becker holds the title of most visits to Omaha and each visit was better than the last. He's a loyal, supportive, kind friend.</p>
+                    <p>We'll call him "Becker" to avoid the "Jake" confusion. Becker and Jake spent days growing up in Wisconsin playing Pokemon and NFL Street. Becker holds the title of most visits to Omaha, and each visit was better than the last. He's a loyal, supportive, kind friend.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -87,7 +87,7 @@ const WeddingParty = () => {
                         <h2>Darby Vacek</h2>
                         <span></span>
                     </div>
-                    <p>Darby and Meg met in Spanish class their freshman year at Creighton. Meg would cheer Darby on at her soccer games and they later became roommates. Darby and Meg love cheering on the Jays and are always cracking jokes together.</p>
+                    <p>Darby and Meg met in Spanish class their freshman year at Creighton. Meg would cheer Darby on at her soccer games, and they later became roommates. Darby and Meg love cheering on the Jays and are always cracking jokes together.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -111,7 +111,7 @@ const WeddingParty = () => {
                         <h2>Janny Mullen</h2>
                         <span></span>
                     </div>
-                    <p>Janny and Meg met in high school where they both worked at Majestic Movie Theater. They have remained friends throughout college and adulthood. They enjoy the Pittsburg Penguins, playing board games, and dueling pianos (RIP). </p>
+                    <p>Janny and Meg met in high school, where they both worked at Majestic Movie Theater. They have remained friends throughout college and adulthood. They enjoy the Pittsburg Penguins, playing board games, and dueling pianos (RIP). </p>
                  </div>
              </div>
              <div className="wedding-party-card">
