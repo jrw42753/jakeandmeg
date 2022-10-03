@@ -289,6 +289,25 @@ img.tall {
   margin: -10px;
 }
 
+.footer-container {
+  border-top: 1px solid #dee2e6;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 25%;               
+  background-color:#dee2e6;
+  height: 1px;
+  margin: 20px 0px;
+}
 
 /* END Photobook page */
 

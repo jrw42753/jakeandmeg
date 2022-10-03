@@ -7,6 +7,7 @@ import WeddingParty from './components/pages/wedding-party/WeddingParty';
 import Home from './components/pages/Home';
 import Accommodations from './components/pages/accommodations/Accommodations';
 import Photos from './components/pages/photos/Photos';
+import Footer from './components/layout/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path='/photos' element={<Photos/>}/>
         </Routes>
       </div>
+      <Footer />
       {/* </div> */}
     </BrowserRouter>
   );
