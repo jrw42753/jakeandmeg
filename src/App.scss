@@ -299,11 +299,15 @@ img.tall {
   margin-top: 50px;
 }
 
+.footer-container > p {
+  text-align: center;
+}
+
 hr {
   border: 0;
   clear:both;
   display:block;
-  width: 25%;               
+  width: 270px;               
   background-color:#dee2e6;
   height: 1px;
   margin: 20px 0px;
