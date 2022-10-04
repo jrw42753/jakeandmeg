@@ -111,7 +111,7 @@ const WeddingParty = () => {
                         <h2>Janny Mullen</h2>
                         <span></span>
                     </div>
-                    <p>Janny and Meg met in high school, where they both worked at Majestic Movie Theater. They have remained friends throughout college and adulthood. They enjoy the Pittsburg Penguins, playing board games, and dueling pianos (RIP). </p>
+                    <p>Janny and Meg met in high school, where they both worked at Majestic Movie Theater. They have remained friends throughout college and adulthood. They enjoy the Pittsburg Penguins, playing board games, and Blazin Pianos (RIP). </p>
                  </div>
              </div>
              <div className="wedding-party-card">
