@@ -79,6 +79,11 @@ const Navigation = () => {
                       Photos
                       </Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-5" as={Link} to="/registry" onClick={() => setExpanded(false)}>
+                      Registry
+                      </Nav.Link>
+                    </Nav.Item>
                     {/* <Nav.Item>
                       <Nav.Link eventKey="link-4" as={Link} to="/" onClick={() => setExpanded(false)}>
                       Things to Do

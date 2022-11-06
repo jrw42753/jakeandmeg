@@ -8,6 +8,7 @@ import Home from './components/pages/Home';
 import Accommodations from './components/pages/accommodations/Accommodations';
 import Photos from './components/pages/photos/Photos';
 import Footer from './components/layout/Footer';
+import Registry from './components/pages/registry/Registry';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/wedding-party' element={<WeddingParty/>}/>
           <Route path='/accommodations' element={<Accommodations/>}/>
           <Route path='/photos' element={<Photos/>}/>
+          <Route path='/registry' element={<Registry/>}/>
         </Routes>
       </div>
       <Footer />
