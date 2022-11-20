@@ -7,6 +7,7 @@ const ThingsToDo = () => {
             <h1>Some of Meg and Jake's Favorite Places in Omaha</h1>
             <div className="things-food-container">
                 <div className="things-item">
+                    <h4 className="things-item-title">The Omaha Zoo</h4>
                     
                 </div>
             </div>
