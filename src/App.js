@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Navigation from './components/layout/Navigation'
 import Title from './components/title/Title';
@@ -9,6 +8,7 @@ import Accommodations from './components/pages/accommodations/Accommodations';
 import Photos from './components/pages/photos/Photos';
 import Footer from './components/layout/Footer';
 import Registry from './components/pages/registry/Registry';
+import OmahaFavorites from './components/pages/omaha-favorites/OmahaFavorites';
 
 function App() {
   return (
@@ -25,6 +25,7 @@ function App() {
           <Route path='/accommodations' element={<Accommodations/>}/>
           <Route path='/photos' element={<Photos/>}/>
           <Route path='/registry' element={<Registry/>}/>
+          <Route path='/our-omaha-favorites' element={<OmahaFavorites/>}/>
         </Routes>
       </div>
       <Footer />

@@ -3,7 +3,7 @@ import React from 'react';
 const Accommodations = () => {
 
     return (
-        <div className="accommodations-container">
+        <div className="page-container">
             <h1 className="hotel-title">Hotel Block</h1>
             <h3 className="hotel-name">Hampton Inn & Suites Omaha Southwest-La Vista</h3>
             <p className="hotel-address">12331 Southport Parkway La Vista, Nebraska 68128 USA</p>

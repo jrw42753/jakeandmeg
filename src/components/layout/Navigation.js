@@ -84,6 +84,11 @@ const Navigation = () => {
                       Registry
                       </Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="link-6" as={Link} to="/our-omaha-favorites" onClick={() => setExpanded(false)}>
+                      Our Omaha Favorites
+                      </Nav.Link>
+                    </Nav.Item>
                     {/* <Nav.Item>
                       <Nav.Link eventKey="link-4" as={Link} to="/" onClick={() => setExpanded(false)}>
                       Things to Do
