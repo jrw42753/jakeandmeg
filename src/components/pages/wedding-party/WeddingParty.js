@@ -51,7 +51,7 @@ const WeddingParty = () => {
                         <h2>Jack Maynard</h2>
                         <span></span>
                     </div>
-                    <p>Brother to Meg and soon to be brother to Jake. Jack and Jake have lots of fun talking about Start Wars and Marvel. Meg loves being a loving supportive and playfully tormenting big sister to Jack.</p>
+                    <p>Brother to Meg and soon to be brother to Jake. Jack and Jake have lots of fun talking about Star Wars and Marvel. Meg loves being a loving supportive and playfully tormenting big sister to Jack.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
