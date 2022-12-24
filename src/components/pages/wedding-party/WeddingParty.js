@@ -27,7 +27,7 @@ const WeddingParty = () => {
                         <h2>Brad Meyer</h2>
                         <span>&nbsp;| Best Man</span>
                     </div>
-                    <p>Brad and Jake met at the beginning of their Freshman year at Creighton University. After many nights of playing board games and spades, they became great friends and now spend time together golfing, hiking, and going to breweries in Denver where they both live. Brad is a financial advisor and enjoys physical challenges. He recently finished the Tough Mudder and is more than halfway through climbing all 58 14k ft mountains in Colorado.</p>
+                    <p>Brad and Jake met at the beginning of their Freshman year at Creighton University. After many nights of playing board games and spades, they became great friends and now spend time together golfing, hiking, and going to breweries in Denver where they both live. He is more than halfway through climbing all 58 14k ft mountains in Colorado!</p>
                  </div>
              </div>  
              <div className="wedding-party-card">
@@ -44,14 +44,14 @@ const WeddingParty = () => {
              </div>
              <div className="wedding-party-card">
                  <div className="wedding-party-img-container">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_7708.jpeg?alt=media&token=4dfaabe4-48ae-48e3-8c12-39358588a25f" className="wedding-party-img" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2Fjack.jpeg?alt=media&token=e4c192e1-1e28-44f3-87d9-69820441be32" className="wedding-party-img" />
                  </div>
                  <div className="wedding-party-text-container">
                     <div className="wedding-party-role">
-                        <h2>Kyle Pate</h2>
+                        <h2>Jack Maynard</h2>
                         <span></span>
                     </div>
-                    <p>Long childhood nights of listening to punk rock, playing video games, and laughing until their stomachs hurt started a great friendship between Kyle and Jake. Kyle has always made time and effort to visit Jake throughout the years since High School. He's full of humor and we're not sure what our friend group would do without him.</p>
+                    <p>Brother to Meg and soon to be brother to Jake. Jack and Jake have lots of fun talking about Start Wars and Marvel. Meg loves being a loving supportive and playfully tormenting big sister to Jack.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -68,14 +68,14 @@ const WeddingParty = () => {
              </div>
              <div className="wedding-party-card">
                  <div className="wedding-party-img-container">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2Fbecker.jpeg?alt=media&token=60dac96c-a4d6-431a-90e6-b9a834d8c8b3" className="wedding-party-img" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_7708.jpeg?alt=media&token=4dfaabe4-48ae-48e3-8c12-39358588a25f" className="wedding-party-img" />
                  </div>
                  <div className="wedding-party-text-container">
                     <div className="wedding-party-role">
-                        <h2>Jake Becker</h2>
+                        <h2>Kyle Pate</h2>
                         <span></span>
                     </div>
-                    <p>We'll call him "Becker" to avoid the "Jake" confusion. Becker and Jake spent days growing up in Wisconsin playing Pokemon and NFL Street. Becker holds the title of most visits to Omaha, and each visit was better than the last. He's a loyal, supportive, kind friend.</p>
+                    <p>Long childhood nights of listening to punk rock, playing video games, and laughing until their stomachs hurt started a great friendship between Kyle and Jake. Kyle has always made time and effort to visit Jake throughout the years since High School. He's full of humor and we're not sure what our friend group would do without him.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -92,14 +92,14 @@ const WeddingParty = () => {
              </div>
              <div className="wedding-party-card">
                  <div className="wedding-party-img-container">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_5304-min.JPG?alt=media&token=fa4edc21-8cdf-4f15-8cc0-fde51a0ae97f" className="wedding-party-img" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2Fbecker.jpeg?alt=media&token=60dac96c-a4d6-431a-90e6-b9a834d8c8b3" className="wedding-party-img" />
                  </div>
                  <div className="wedding-party-text-container">
                     <div className="wedding-party-role">
-                        <h2>JT Sharp</h2>
+                        <h2>Jake Becker</h2>
                         <span></span>
                     </div>
-                    <p>JT and Jake sparked a great friendship at Creighton where they lived on the same dormroom floor Freshman year. Whether it's from playing spades, flag football, or Ticket to Ride JT and Jake have a vault of great memories together. It's always a treat for Jake to visit JT in Arizona.</p>
+                    <p>We'll call him "Becker" to avoid the "Jake" confusion. Becker and Jake spent days growing up in Wisconsin playing Pokemon and NFL Street. Becker holds the title of most visits to Omaha, and each visit was better than the last. He's a loyal, supportive, kind friend.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -116,14 +116,14 @@ const WeddingParty = () => {
              </div>
              <div className="wedding-party-card">
                  <div className="wedding-party-img-container">
-                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_1717-min.jpg?alt=media&token=d9ea58fc-e99f-4711-8448-82d64d5269b2" className="wedding-party-img" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_5304-min.JPG?alt=media&token=fa4edc21-8cdf-4f15-8cc0-fde51a0ae97f" className="wedding-party-img" />
                  </div>
                  <div className="wedding-party-text-container">
                     <div className="wedding-party-role">
-                        <h2>Jake Musil</h2>
+                        <h2>JT Sharp</h2>
                         <span></span>
                     </div>
-                    <p>Another Jake?? Yes. "Moose's" house growing up was the place to be. Long nights playing cards, ping pong, GameCube, and watching sports were spent at the Musil house. Moose and Jake also lived together for a year in Omaha.</p>
+                    <p>JT and Jake sparked a great friendship at Creighton where they lived on the same dormroom floor Freshman year. Whether it's from playing spades, flag football, or Ticket to Ride JT and Jake have a vault of great memories together. It's always a treat for Jake to visit JT in Arizona.</p>
                  </div>
              </div>
              <div className="wedding-party-card">
@@ -138,7 +138,18 @@ const WeddingParty = () => {
                     <p>Ari and Meg met in the Freshman Leadership Program at Creighton. They have been described as “twins” because of their height and dark hair. Ari and Meg enjoy sharing about house plants, wine, and adventures.</p>
                  </div>
              </div>
-             
+             <div className="wedding-party-card">
+                 <div className="wedding-party-img-container">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/wedding-party%2FIMG_1717-min.jpg?alt=media&token=d9ea58fc-e99f-4711-8448-82d64d5269b2" className="wedding-party-img" />
+                 </div>
+                 <div className="wedding-party-text-container">
+                    <div className="wedding-party-role">
+                        <h2>Jake Musil</h2>
+                        <span></span>
+                    </div>
+                    <p>Another Jake?? Yes. "Moose's" house growing up was the place to be. Long nights playing cards, ping pong, GameCube, and watching sports were spent at the Musil house. Moose and Jake also lived together for a year in Omaha.</p>
+                 </div>
+             </div>
          </div>
         </>
     )
