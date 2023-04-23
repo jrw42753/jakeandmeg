@@ -537,21 +537,6 @@ legend {
     border: none !important;
     border-color: #fff !important;
   }
-  .registry-flexbox-container {
-    flex-direction: column;
-    align-items: center;
-  }
-  .registry-flexbox-item {
-    margin: 15px 0px;
-  }
-  .registry-logo {
-    height: auto;
-    max-height: 80px;
-    width: auto;
-  }
-  .guest-info-container {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: 607px) and (min-width: 545px)  {
@@ -666,6 +651,21 @@ legend {
   }
   .omaha-item {
     margin-bottom: 15px;
+  }
+  .registry-flexbox-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .registry-flexbox-item {
+    margin: 15px 0px;
+  }
+  .registry-logo {
+    height: auto;
+    max-height: 80px;
+    width: auto;
+  }
+  .guest-info-container {
+    width: 100%;
   }
  }
 

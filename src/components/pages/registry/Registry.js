@@ -16,10 +16,10 @@ const Registry = () => {
                     <p className="registry-link">Target</p>
                 </div>
                 {/* Bed Bath & Beyond */}
-                {/* <div className="registry-flexbox-item" onClick={() => openRegistryLink("https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/551984546?eventType=Wedding")}>
+                <div className="registry-flexbox-item" style ={{paddingLeft: "20px", paddingRight: "20px"}} onClick={() => openRegistryLink("https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/551984546?eventType=Wedding")}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/logos%2Fbed-bath-beyond-logo.png?alt=media&token=86215eb8-3ea1-4832-bd7a-937c95ad8d7f" className="registry-logo" />
                     <p className="registry-link">Bed Bath & Beyond</p>
-                </div> */}
+                </div>
                 {/* Pampered Chef */}
                 <div className="registry-flexbox-item" onClick={() => openRegistryLink("https://www.pamperedchef.com/wl/oMINS3")}>
                     <img src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/logos%2FpamperedChef.png?alt=media&token=2aa18e2a-ef21-4e91-8ecf-e5a818977bb5" className="registry-logo" />
