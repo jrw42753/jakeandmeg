@@ -17,6 +17,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  3701 S 10th St, Omaha, NE 68107</p>
                     <p className="omaha-distance">13 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Dinkers</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fdinkers-min.jpg?alt=media&token=112cd13b-3163-4253-abd2-819b77ca50c5" />
@@ -24,6 +25,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  2368 S 29th St, Omaha, NE 68105</p>
                     <p className="omaha-distance">13 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Zen Coffee</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fzen-min.jpg?alt=media&token=ba33f3dc-7a4a-4e94-943f-a97092785932" />
@@ -31,6 +33,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  2504 Farnam St, Omaha, NE 68131</p>
                     <p className="omaha-distance">14 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Coneflower</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fconeflower.jpg?alt=media&token=68deb3bb-0fb7-42e1-bc00-13fd3060148b" />
@@ -38,6 +41,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  3921 Farnam St, Omaha, NE 68131</p>
                     <p className="omaha-distance">16 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Infusion</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Finfusion.jpg?alt=media&token=465ab7e7-a1db-487e-b4f3-a24e1b0e8c73" />
@@ -45,6 +49,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  6271 S 118th St, Omaha, NE 68137</p>
                     <p className="omaha-distance">5 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Block 16</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fblock16-min.jpg?alt=media&token=aabad9cc-0fe8-4f7e-a03b-dfaeac53a3cb" />
@@ -52,6 +57,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  1611 Farnam St, Omaha, NE 68106</p>
                     <p className="omaha-distance">16 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Tasty Pizza</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Ftastypizza-min.jpg?alt=media&token=fe7cdcc6-43cd-4caf-ae68-ad9f549cfd88" />
@@ -59,6 +65,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  1418 S 60th St, Omaha, NE 68106</p>
                     <p className="omaha-distance">12 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Modern Love</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fmodern-love-min.jpg?alt=media&token=baf7d95c-f937-4df1-b570-542fa610f9a0" />
@@ -66,6 +73,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  3157 Farnam St Suite 7113, Omaha, NE 68131</p>
                     <p className="omaha-distance">14 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Amsterdam</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Famsterdam-min.jpg?alt=media&token=b0f56024-3fff-48b5-90aa-a8784775ae72" />
@@ -73,6 +81,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  10000 California St, Omaha, NE 68114</p>
                     <p className="omaha-distance">11 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Gorat's</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2FGorat_Steakhouse-min.jpg?alt=media&token=d8ae28f1-b7fc-4a13-a92e-cf68e199f93b" />
@@ -80,6 +89,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  4917 Center St, Omaha, NE 68106</p>
                     <p className="omaha-distance">13 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Ika</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fika-min.jpg?alt=media&token=dd4ca064-2dea-4e35-8673-5fe00ed411e5" />
@@ -87,6 +97,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  6109 Maple St, Omaha, NE 68104</p>
                     <p className="omaha-distance">16 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Beercade</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fbeercade-min.jpg?alt=media&token=366b7fd7-7353-473d-913d-7b3ca6b67c85" />
@@ -94,6 +105,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  6104 Maple St, Omaha, NE 68104</p>
                     <p className="omaha-distance">16 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Early Bird</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fearly-bird-min.jpg?alt=media&token=eee3986d-a857-42dd-a260-ef4b23b4d007" />
@@ -101,6 +113,7 @@ const OmahaFavorites = () => {
                     <p><i class='fas fa-map-marker-alt' style={purpleStyle}></i>  3824 Farnam St Suite 120, Omaha, NE 68131</p>
                     <p className="omaha-distance">16 minutes from <a href="/accommodations" style={purpleStyle}>Hampton&nbsp;La&nbsp;Vista</a></p>
                 </div>
+                <hr className='omaha-divider-mobile'/>
                 <div className="omaha-item">
                     <h4 className="omaha-item-title">Village Grinder</h4>
                     <img className="omaha-picture" src="https://firebasestorage.googleapis.com/v0/b/jakeandmeg.appspot.com/o/things-to-do%2Fvillage-grinder-min.jpg?alt=media&token=cfc68cf3-05ca-4dc1-8c5b-749d29dc2ae8" />
