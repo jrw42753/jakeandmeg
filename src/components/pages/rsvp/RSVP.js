@@ -22,7 +22,6 @@ function RSVP() {
         const [adultsAttending, setAdultsAttending] = useState(0);
         const [submitToFirestoreRes, setSubmitToFirestoreRes] = useState();
 
-        // const db = getFirestore()
 
 
 
@@ -79,12 +78,10 @@ function RSVP() {
         }, [])
 
         // useEffect(() => {
-        //     console.log("guestList", guestList)
+        //     console.log(guestList)
         // },[guestList])
 
         useEffect(() => {
-            // setTotalInvitedGuests(selectedGuest.adults)
-            console.log("selectedGuest", selectedGuest)
             if (selectedGuest) {
                 const adultsPlusKids = selectedGuest.kids ? selectedGuest.kids + selectedGuest.adults : selectedGuest.adults;
                 setSelectedGuestAdultsKids(adultsPlusKids);
@@ -113,7 +110,6 @@ function RSVP() {
         },[selectedGuest])
 
         useEffect(() => {
-            console.log("submitToFirestoreRes", submitToFirestoreRes)
             if (submitToFirestoreRes === "success") {
                 setSelectedGuest(null);
                 setGuestList(null);
@@ -128,7 +124,6 @@ function RSVP() {
         }
  
         function selectName(guest) {
-            console.log("guest", guest);
             setSelectedGuest(guest);
             setSubmitToFirestoreRes(null);
         }
@@ -152,7 +147,6 @@ function RSVP() {
 
         async function handleSubmit() {
             const selectedGuestRef = doc(firebase.firestore(), 'guest-invites', selectedGuest.id);
-            console.log(selectedGuestRef)
             updateSelectedGuest(selectedGuestRef);
         }
 
