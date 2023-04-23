@@ -1,42 +1,40 @@
-import React, { Component, useState } from 'react';
+import React, { Component, useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { useLocation } from 'react-router-dom';
 
 
 
 const Navigation = () => {
 
     const [expanded, setExpanded] = useState(false);
+    const [key, setKey] = useState();
+    const location = useLocation();
+
+    useEffect(() => {
+      if (location.pathname === "/") {
+        setKey("home")
+      } else if (location.pathname === "/wedding-party") {
+        setKey("wedding-party")
+      } else if (location.pathname === "/accommodations") {
+        setKey("accommodations")
+      } else if (location.pathname === "/schedule") {
+        setKey("schedule")
+      } else if (location.pathname === "/rsvp") {
+        setKey("rsvp")
+      } else if (location.pathname === "/photos") {
+        setKey("photos")
+      } else if (location.pathname === "/registry") {
+        setKey("registry")
+      } else if (location.pathname === "/our-omaha-favorites") {
+        setKey("our-omaha-favorites")
+      }
+    },[location])
+
     return (
-        // <div className="navigation-container">
-        //   <Navbar expand="sm">
-        //     <Container>
-        //       <Nav variant="tabs" className="justify-content-center" defaultActiveKey="link-1">
-        //       <Navbar.Toggle onClick={() => setExpanded(expanded ? false : "expanded")} aria-controls="basic-navbar-nav" />
-        //       <Navbar.Collapse id="basic-navbar-nav">
-        //         <Nav.Item>
-        //           <Nav.Link eventKey="link-1" as={Link} to="/">
-        //             Home
-        //           </Nav.Link>
-        //         </Nav.Item>
-        //         <Nav.Item>
-        //           <Nav.Link eventKey="link-2" as={Link} to="/wedding-party">
-        //             Wedding Party
-        //           </Nav.Link>
-        //         </Nav.Item>
-        //         <Nav.Item>
-        //           <Nav.Link eventKey="link-3" as={Link} to="/">
-        //             Link
-        //           </Nav.Link>
-        //         </Nav.Item>
-        //       </Navbar.Collapse>
-        //       </Nav>
-        //     </Container>
-        //   </Navbar>
-        // </div>
         <>
         {/* {[false, 'sm', 'md', 'lg', 'xl', 'xxl'].map((expand) => ( */}
           <div className="navigation-container">
@@ -56,64 +54,49 @@ const Navigation = () => {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                   {/* <Nav className="justify-content-end flex-grow-1 pe-3"> */}
-                  <Nav variant="tabs" className="justify-content-center" defaultActiveKey="link-1">
+                  <Nav variant="tabs" className="justify-content-center" activeKey={key}>
                     {/* <Nav.Link href="#action1">Home</Nav.Link>
                     <Nav.Link href="#action2">Link</Nav.Link> */}
                     <Nav.Item>
-                      <Nav.Link eventKey="link-1" as={Link} to="/" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="home" as={Link} to="/" onClick={() => setExpanded(false)}>
                       Home
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-2" as={Link} to="/wedding-party" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="wedding-party" as={Link} to="/wedding-party" onClick={() => setExpanded(false)}>
                       Wedding Party
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-3" as={Link} to="/accommodations" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="accommodations" as={Link} to="/accommodations" onClick={() => setExpanded(false)}>
                       Accommodations
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-4" as={Link} to="/photos" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="schedule" as={Link} to="/schedule" onClick={() => setExpanded(false)}>
+                      Schedule
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="rsvp" as={Link} to="/rsvp" onClick={() => setExpanded(false)}>
+                      RSVP
+                      </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="photos" as={Link} to="/photos" onClick={() => setExpanded(false)}>
                       Photos
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-5" as={Link} to="/registry" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="registry" as={Link} to="/registry" onClick={() => setExpanded(false)}>
                       Registry
                       </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="link-6" as={Link} to="/our-omaha-favorites" onClick={() => setExpanded(false)}>
+                      <Nav.Link eventKey="our-omaha-favorites" as={Link} to="/our-omaha-favorites" onClick={() => setExpanded(false)}>
                       Our Omaha Favorites
                       </Nav.Link>
                     </Nav.Item>
-                    {/* <Nav.Item>
-                      <Nav.Link eventKey="link-4" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Things to Do
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="link-5" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Our Story
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="link-6" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Photos
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="link-7" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      Registry
-                      </Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                      <Nav.Link eventKey="link-8" as={Link} to="/" onClick={() => setExpanded(false)}>
-                      RSVP
-                      </Nav.Link>
-                    </Nav.Item> */}
                   </Nav>
                 </Offcanvas.Body>
               </Navbar.Offcanvas>

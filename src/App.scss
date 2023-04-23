@@ -236,6 +236,18 @@
   cursor: pointer;
 }
 
+.megjake-button-secondary {
+  color: #7f58a7;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.megjake-button-secondary:hover {
+  cursor: pointer;
+  
+  color: #704270;
+}
+
 .hotel-address {
   font-weight: bold;
   margin-top: 25px;
@@ -366,7 +378,7 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 15px 0px;
+  margin: 15px 0px 35px;
   max-width: 300px;
 }
 
@@ -375,7 +387,130 @@ hr {
   border-radius: 50%;
   margin: 10px 0px;
 }
+.omaha-divider-mobile {
+  display: none;
+}
 /* END Omaha Page */
+
+/* RSVP Page */
+.rsvp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-dropdown {
+  margin: 10px 0px 40px;
+  position: static !important;
+}
+.selectedGuest {
+  display: flex;
+  flex-direction: column;
+}
+.custom-dropdown-menu {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+.background-gray {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.5;
+}
+.guest-number-div {
+  display: flex;
+  align-items: center;
+}
+.guest-info-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.guest-number-input{
+  max-width: 60px;
+}
+fieldset {
+  border: 1px solid #9b81b9 !important;
+  border-radius: 5px;
+  padding: 20px !important;
+  margin-top: 30px !important;
+}
+legend {
+  float: none !important;
+  font-weight: bold;
+  width: auto !important;
+  padding: 0px 10px !important;
+  font-size: 16px !important;
+}
+.custom-form-item {
+  margin-bottom: 15px !important;
+}
+.rsvp-button {
+  margin: auto;
+}
+.rsvp-form {
+  margin-bottom: 35px;
+}
+.custom-rsvp-input:focus {
+  border-color: #9b81b9 !important;
+  box-shadow: 0 0 0 0.25rem rgb(127, 88, 167, .25) !important;
+}
+.custom-rsvp-input {
+  width: 90% !important;
+}
+.dropdown-item {
+  margin: 5px 0px !important;
+  white-space: normal !important;
+}
+.success-div {
+  display: flex;
+  align-items: center;
+}
+.success-div > p {
+  margin: 0px;
+}
+.success-div > i {
+  margin-left: 10px;
+}
+.incorrect-info-message {
+  margin-top: 40px;
+}
+/* END RSVP Page */
+
+/* START Schedule Page */
+.schedule-section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+}
+.schedule-section-time {
+  min-width: 150px;
+  text-align: center;
+  margin-right: 40px;
+}
+.schedule-section-details {
+  min-width: 290px;
+}
+.schedule-divider {
+  width: 60%;
+  margin: 30px 0px;
+  color: #704270;
+}
+.schedule-footer {
+  width: 57%;
+}
+.time-desktop {
+  display: block;
+}
+.time-mobile {
+  display: none;
+}
+/* END Schedule Page */
 
 @media only screen and (max-width: 575px) {
   .navigation-container {
@@ -407,12 +542,15 @@ hr {
     align-items: center;
   }
   .registry-flexbox-item {
-    margin: 10px 0px;
+    margin: 15px 0px;
   }
   .registry-logo {
     height: auto;
     max-height: 80px;
     width: auto;
+  }
+  .guest-info-container {
+    width: 100%;
   }
 }
 
@@ -481,6 +619,16 @@ hr {
     grid-template-columns: repeat(auto-fill, 150px);
     grid-auto-rows: 10px;
   }
+  .custom-dropdown-menu {
+    min-width: none !important;
+    width: 85% !important;
+  }
+}
+
+@media only screen and (min-width: 546px) {
+  .custom-dropdown-menu {
+    min-width: 400px !important;
+  }
 }
 
 @media only screen and (max-width: 700px) {
@@ -493,5 +641,66 @@ hr {
   .wedding-party-text-container {
     width: 100%;
   }
+  
 }
+
+@media only screen and (max-width: 850px) { 
+  .custom-dropdown-menu {
+    top: 30% !important;
+  }
+}
+
+@media only screen and (max-width: 1000px) { 
+  .schedule-divider {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 750px) { 
+  .schedule-divider {
+    width: 100%;
+  }
+  .omaha-divider-mobile {
+    display: block;
+    width: 100%;
+  }
+  .omaha-item {
+    margin-bottom: 15px;
+  }
+ }
+
+@media only screen and (max-width: 615px) {
+  .schedule-section-time {
+    min-width: 0px;
+  }
+  .schedule-section-details {
+    width: auto;
+    min-width: 0px;
+  }
+  .schedule-section {
+    grid-template-columns: 40% 60%;
+  }
+  .time-desktop {
+    display: none;
+  }
+  .time-mobile {
+    display: block;
+  }
+  .schedule-footer {
+    width: 85%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .schedule-section {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1000px) { 
+  .schedule-divider {
+    width: 80%;
+  }
+}
+
 

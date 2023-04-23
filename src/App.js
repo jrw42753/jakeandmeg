@@ -9,11 +9,12 @@ import Photos from './components/pages/photos/Photos';
 import Footer from './components/layout/Footer';
 import Registry from './components/pages/registry/Registry';
 import OmahaFavorites from './components/pages/omaha-favorites/OmahaFavorites';
+import RSVP from './components/pages/rsvp/RSVP';
+import Schedule from './components/schedule/Schedule';
 
 function App() {
   return (
     <BrowserRouter>
-      {/* <div className="App"> */}
       <div className="main-header">
         <Title />
         <Navigation />
@@ -23,13 +24,14 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/wedding-party' element={<WeddingParty/>}/>
           <Route path='/accommodations' element={<Accommodations/>}/>
+          <Route path='/rsvp' element={<RSVP/>}/>
+          <Route path='/schedule' element={<Schedule/>}/>
           <Route path='/photos' element={<Photos/>}/>
           <Route path='/registry' element={<Registry/>}/>
           <Route path='/our-omaha-favorites' element={<OmahaFavorites/>}/>
         </Routes>
       </div>
       <Footer />
-      {/* </div> */}
     </BrowserRouter>
   );
 }
