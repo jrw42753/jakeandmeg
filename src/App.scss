@@ -352,6 +352,10 @@ hr {
   height: 100px;
 }
 
+.third-logo {
+  margin-top: 20px;
+}
+
 .registry-link {
   color: #7f58a7;
   font-weight: bold;
@@ -411,6 +415,8 @@ hr {
   top: 50% !important;
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
+  max-height: 350px;
+  overflow: scroll;
 }
 .background-gray {
   height: 100%;
@@ -630,9 +636,9 @@ legend {
 }
 
 @media only screen and (max-width: 850px) { 
-  .custom-dropdown-menu {
-    top: 30% !important;
-  }
+  // .custom-dropdown-menu {
+  //   top: 30% !important;
+  // }
 }
 
 @media only screen and (max-width: 1000px) { 
@@ -663,6 +669,9 @@ legend {
     height: auto;
     max-height: 80px;
     width: auto;
+  }
+  .third-logo {
+    margin: 0px;
   }
   .guest-info-container {
     width: 100%;
