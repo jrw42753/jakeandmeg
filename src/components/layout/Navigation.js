@@ -77,11 +77,11 @@ const Navigation = () => {
                       Schedule
                       </Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link eventKey="rsvp" as={Link} to="/rsvp" onClick={() => setExpanded(false)}>
                       RSVP
                       </Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <Nav.Link eventKey="photos" as={Link} to="/photos" onClick={() => setExpanded(false)}>
                       Photos
